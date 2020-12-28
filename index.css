@@ -1,0 +1,35 @@
+#BigWrapper{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:100vh;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#TodoBox{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    width:50%;
+    height:100%;
+
+}
+
+#Img{
+    opacity: 0.5;
+    position:absolute;
+    z-index: -1000;
+    height:300px;
+}
+
+#ContentBox{
+    position: relative;
+    z-index: 1000;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
