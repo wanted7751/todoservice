@@ -1,4 +1,4 @@
-git #Wrapper{
+#Wrapper{
     width:100%;
     height:100%;
     display:flex;
@@ -13,8 +13,7 @@ git #Wrapper{
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    min-height:20rem;
+    margin-top:20rem;
 }
 
 #ContentsBox{
@@ -29,14 +28,27 @@ git #Wrapper{
     display:flex;
     flex-direction:row;
     align-items:center;
-    justify-content: center;
+    justify-content: space-between;
+    max-width:600px;
+}
+
+#ContentBody{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    max-width:600px;
 }
 
 #InputBox{
-    width:50%;
+    width:100%;
+    max-width:500px;
 }
 
 
+.TodoList{
+    color:red
+}
 
 
 #ListBox{
